@@ -21,9 +21,12 @@ const Header = () => {
       <nav className="container mx-auto flex justify-between items-center py-4 px-6">
         {/* Logo */}
         <Link href="/">
-          <a>
-            <Image src="/logo.png" alt="Teckware Logo" width={50} height={50} />
-          </a>
+            <Image 
+            src="https://i.postimg.cc/nVDKF9WY/xplendev-logo-black.png" 
+            alt="Teckware Logo" 
+            width={50} 
+            height={50} 
+            />
         </Link>
 
         {/* Desktop Navigation */}
